@@ -22,18 +22,6 @@
 				<attribute adminonly="0" defaultvalue="Select" hint="This will apply Bootstrap classes to the Card to change it's background styles" label="Card Background Style" message="" name="CardBackgroundStyle" optionlabellist="Select^Primary^Secondary^Success^Danger^Warning^Info^Dark" optionlist="Select^text-white bg-primary^text-white bg-secondary^text-white bg-success^text-white bg-danger^text-white bg-warning^text-white bg-info^text-white bg-dark" orderno="1" regex="" required="false" type="SelectBox" validation=""/>
 			</attributeset>
 		</extension>
-		<extension adminonly="0" availablesubtypes="" basekeyfield="contentHistID" basetable="tcontent" datatable="tclassextenddata" description="" hasassocfile="1" hasbody="1" hasconfigurator="0" hassummary="1" iconclass="mi-indent" subtype="Article" type="Page"/>
-		<extension adminonly="0" availablesubtypes="" basekeyfield="contentHistID" basetable="tcontent" datatable="tclassextenddata" description="" hasassocfile="1" hasbody="1" hasconfigurator="0" hassummary="1" iconclass="" subtype="Blog Post" type="Page"/>
 		<extension adminonly="0" availablesubtypes="" basekeyfield="contentHistID" basetable="tcontent" datatable="tclassextenddata" description="" hasassocfile="1" hasbody="0" hasconfigurator="0" hassummary="1" iconclass="mi-th" subtype="Default" type="Page"/>
-		<extension adminonly="0" availablesubtypes="" basekeyfield="contentHistID" basetable="tcontent" datatable="tclassextenddata" description="" hasassocfile="1" hasbody="0" hasconfigurator="0" hassummary="1" iconclass="mi-desktop" subtype="Webinar" type="Page">
-			<attributeset categoryid="" container="Default" name="Confirmation" orderno="1">
-				<attribute adminonly="0" defaultvalue="" hint="" label="Confirmation URL" message="" name="confirmationurl" optionlabellist="" optionlist="" orderno="1" regex="" required="false" type="TextBox" validation=""/>
-			</attributeset>
-		</extension>
-		<extension adminonly="0" availablesubtypes="" basekeyfield="contentHistID" basetable="tcontent" datatable="tclassextenddata" description="" hasassocfile="1" hasbody="0" hasconfigurator="0" hassummary="1" iconclass="mi-file-pdf-o" subtype="White Paper" type="Page">
-			<attributeset categoryid="" container="Default" name="Confirmation" orderno="1">
-				<attribute adminonly="0" defaultvalue="" hint="" label="Confirmation URL" message="" name="confirmationurl" optionlabellist="" optionlist="" orderno="1" regex="" required="false" type="TextBox" validation=""/>
-			</attributeset>
-		</extension>
 	</extensions>
 </mura>

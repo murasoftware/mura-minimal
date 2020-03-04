@@ -1,4 +1,4 @@
 <cfoutput>
-	#Mura.dspObjects(1)#
-	#Mura.dspObjects(3)#<!---Pre-Footer Display Region--->
+#Mura.renderEditableAttribute(attribute="body",type="htmlEditor")#
 </cfoutput>
+   
