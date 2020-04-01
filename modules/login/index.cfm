@@ -2,10 +2,6 @@
 	<cfset variables.Mura.event('isBlocked',false)>
 </cfif>
 <cfoutput>
-	<div class="module-brand text-center mb-0 spacing-loose">
-		<h1>#variables.Mura.rbKey('user.login')#</h1>
-	</div>
-
 	<div id="svLoginContainer" class="mura-login-container #this.loginWrapperClass#">
 		<div class="#this.loginWrapperInnerClass#">
 			<!---
