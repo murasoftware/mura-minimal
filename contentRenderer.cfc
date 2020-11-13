@@ -18,6 +18,7 @@
 		this.cookieConsentWidth="sm";
 		//this.defaultCollectionDisplayList="";
 
+		this.SSR=false;
 		this.primaryContentTypes="Page,Link,File";
 		this.spacingoptions=[{name="Tight",value="tight"},{name="Normal",value="normal"},{name="Loose",value="loose"}];
 		this.modulethemeoptions=[
