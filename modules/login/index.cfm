@@ -61,7 +61,7 @@
 										<ins>(#HTMLEditFormat(variables.Mura.rbKey('user.required'))#)</ins>
 									</label>
 									<div class="#this.loginFormFieldWrapperClass#">
-										<input autocomplete="off" class="#this.loginFormFieldClass#" type="text" id="txtUsername" placeholder="#variables.Mura.rbKey('user.authcode')#" name="authcode" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.authcoderequired'))#" autofocus>
+										<input autocomplete="off" class="#this.loginFormFieldClass#" type="text" id="txtUsername" placeholder="#variables.Mura.rbKey('user.authcode')#" name="authcode" maxlength="255" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.authcoderequired'))#" autofocus>
 									</div>
 								</div>
 
@@ -132,7 +132,7 @@
 									<ins>(#HTMLEditFormat(variables.Mura.rbKey('user.required'))#)</ins>
 								</label>
 								<div class="#this.loginFormFieldWrapperClass#">
-									<input class="#this.loginFormFieldClass#" type="text" id="txtUsername" placeholder="#variables.Mura.rbKey('user.username')#" name="username" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.usernamerequired'))#" autofocus>
+									<input class="#this.loginFormFieldClass#" type="text" id="txtUsername" placeholder="#variables.Mura.rbKey('user.username')#" name="username"  maxlength="255" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.usernamerequired'))#" autofocus>
 								</div>
 							</div>
 
@@ -143,7 +143,7 @@
 									<ins>(#HTMLEditFormat(variables.Mura.rbKey('user.required'))#)</ins>
 								</label>
 								<div class="#this.loginFormFieldWrapperClass#">
-									<input class="#this.loginFormFieldClass#" type="password" id="txtPassword" name="password" placeholder="#variables.Mura.rbKey('user.password')#" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.passwordrequired'))#" autocomplete="off">
+									<input class="#this.loginFormFieldClass#" type="password" id="txtPassword" name="password" maxlength="255" placeholder="#variables.Mura.rbKey('user.password')#" data-required="true" data-message="#htmlEditFormat(variables.Mura.rbKey('user.passwordrequired'))#" autocomplete="off">
 								</div>
 							</div>
 
